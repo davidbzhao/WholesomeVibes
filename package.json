@@ -1,0 +1,27 @@
+{
+  "name": "wholesomevibes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbzhao/WholesomeVibes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbzhao/WholesomeVibes/issues"
+  },
+  "homepage": "https://github.com/davidbzhao/WholesomeVibes#readme",
+  "dependencies": {
+    "mongodb-stitch-browser-sdk": "^4.0.13"
+  },
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
