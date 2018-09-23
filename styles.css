@@ -10,6 +10,47 @@
     border:0;
     background:transparent;
 }
-#imaginary_container{
-    margin-top:50%; /* Don't copy this */
+.expanded_container{
+	width:50%;
+	margin:25% auto;
+}
+.squashed_container{
+	width:33%;
+	margin:5% auto;
+
+	animation-name:squash_container;
+	animation-duration:.5s;
+}
+
+.expanded_box{
+	font-size:4em;
+	height:1.4em;
+}
+.squashed_box{
+	font-size:22pt;
+	height:32pt;
+
+	animation-name:squash_box;
+	animation-duration: .5s;
+}
+
+@keyframes squash_container{
+	from{
+		margin:25% auto;
+		width:50%;
+	}
+	to{
+		margin:5% auto;
+		width:33%;
+	}
+}
+@keyframes squash_box{
+	from{
+		font-size:4em;
+		height:1.4em;
+	}
+	to{
+		font-size:22pt;
+		height:32pt;
+	}
 }
