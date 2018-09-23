@@ -8,7 +8,6 @@ html, body {
 
 body {
     background-color: #ffecb3;
-    overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -75,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+.coa-container {
+    margin-top: 125px;
+}
+
 .coa-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -89,7 +92,7 @@ h3.coa-group-title {
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 0.75px;
-    opacity: 0.54;
+    opacity: 0;
 }
 
 div.coa {
