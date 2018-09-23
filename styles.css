@@ -1,3 +1,12 @@
+body {
+    background: #eff6f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', serif;
+}
+
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
@@ -12,4 +21,43 @@
 }
 #imaginary_container{
     margin-top:50%; /* Don't copy this */
+}
+
+
+.coa-group {
+    margin-top: 4rem;
+}
+
+h3.coa-group-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    opacity: 0.54;
+}
+
+div.coa {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    padding-left: 0.5rem;
+    box-shadow: 0 1px 4px #b0b0b0;
+    border-radius: 0.5rem;
+    background: #d63031;
+    margin-bottom: 1.5rem;
+}
+div.coa:hover {
+    box-shadow: 0 3px 4px #b0b0b0;
+}
+
+div.coa-logo {
+    background: #f7f7f9;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+div.coa-content {
+    background: #fff;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0 2rem 1rem;
 }
