@@ -59,6 +59,14 @@ const makeSectionTitlesAppear = () => {
   $('.coa-group-title').css('opacity', '0.54');
 }
 
+$('#search-bar').keypress(function (e) {
+  var key = e.which;
+  if (key == 13) {
+    e.preventDefault();
+    $('#search-button').click();
+  }
+ });
+
 $('#search-button').click(function() {
   animateSearch();
   submitQuery();
